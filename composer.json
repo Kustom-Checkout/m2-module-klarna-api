@@ -1,20 +1,22 @@
 {
-   "name": "vaimo/kustom-module-klarna-api",
+    "name": "kustom/module-klarna-api",
     "description": "Kustom api Magento 2 Extension",
     "type": "magento2-module",
     "license": "Apache-2.0",
-    "version": "1.0.8",
+    "version": "1.1.0",
     "require": {
         "php": ">=7.4.0",
         "magento/framework": "^103",
         "guzzlehttp/guzzle": "^6.0|^7.3.0",
-        "vaimo/kustom-module-logger": "3.0.9",
-        "vaimo/kustom-module-admin-settings": "^1"
+        "kustom/module-logger": "^3.0",
+        "kustom/module-admin-settings": "^1"
     },
     "autoload": {
         "psr-4": {
             "Klarna\\KlarnaApi\\": "."
         },
-        "files": [ "registration.php" ]
+        "files": [
+            "registration.php"
+        ]
     }
 }

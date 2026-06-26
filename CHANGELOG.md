@@ -1,35 +1,46 @@
-1.0.8 / 2026-03-16
-==================
+# Changelog
+
+## 1.1.0 / 2026-06-24
+
+### Breaking changes
+
+* None
+
+### Features / changes
+
+* KUSTOM-93: Loosened up PHP version constraint to allow installing the package on Magento 2.4.9
+  and PHP 8.5. Adjusted integration and unit tests in the package to run on currently supported
+  Magento, PHP and PHPUnit versions.
+
+### Fixes
+
+* None
+
+## 1.0.8 / 2026-03-16
 
   * KUSTOM-68 Fix guzzlehttp/guzzle compatibility issue for magento <2.4.5
 
-1.0.7 / 2025-11-10
-==================
+## 1.0.7 / 2025-11-10
 
   * KUSTOM-33 Change version info in admin panel
 
-1.0.4 / 2025-06-03
-==================
+## 1.0.4 / 2025-06-03
 
   * PPP-2089 Updated version because of version dependency updates
 
-1.0.3 / 2025-05-21
-==================
+## 1.0.3 / 2025-05-21
 
   * PPP-2055 Compatibility with AC 2.4.8 and PHP 8.4
 
-1.0.2 / 2025-04-23
-==================
+## 1.0.2 / 2025-04-23
 
   * PPP-2060 Updated version because of new dependencies
 
-1.0.1 / 2025-04-03
-==================
+## 1.0.1 / 2025-04-03
 
   * PPP-2029 Change url type in KlarnaApi for Plugins Api request
 
-1.0.0 / 2025-03-26
-==================
+## 1.0.0 / 2025-03-26
 
   * PPP-1580 Added Plugins API functionality
   * PPP-1903 Fetch available Klarna features from Klarna API
