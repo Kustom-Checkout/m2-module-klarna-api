@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright © Klarna Bank AB (publ)
+ * Copyright 2025 Kustom AB (Originally developed by Klarna Bank AB)
  *
  * For the full copyright and license information, please view the NOTICE
  * and LICENSE files that were distributed with this source code.
@@ -14,7 +14,6 @@ use Klarna\AdminSettings\Model\Configurations\Api;
 use Klarna\AdminSettings\Model\MarketCurrencyMapper;
 use Klarna\KlarnaApi\Model\Endpoints\PluginsApi\V2\Responses\PostFeatures\Factory;
 use Klarna\KlarnaApi\Model\Rest\Client;
-use Klarna\PluginsApi\Model\Update\Api\ContainerFactory;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Store\Model\StoreFactory;

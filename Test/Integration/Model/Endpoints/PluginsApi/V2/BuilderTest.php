@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright © Klarna Bank AB (publ)
+ * Copyright 2025 Kustom AB (Originally developed by Klarna Bank AB)
  *
  * For the full copyright and license information, please view the NOTICE
  * and LICENSE files that were distributed with this source code.
@@ -13,7 +13,6 @@ use Klarna\Base\Helper\VersionInfo;
 use Klarna\Base\Test\Integration\Helper\ApiRequestTestCase;
 use Klarna\KlarnaApi\Model\Endpoints\PluginsApi\V2\Builder;
 use Klarna\KlarnaApi\Model\Endpoints\PluginsApi\V2\Result;
-use Klarna\Kp\Model\Api\Builder\Request;
 use Magento\Framework\UrlInterface;
 use Magento\Store\Model\StoreManagerInterface;
 
@@ -70,7 +69,6 @@ class BuilderTest extends ApiRequestTestCase
      * @magentoConfigFixture current_store klarna/api/region eu
      * @magentoConfigFixture current_store klarna/api_eu/api_mode 1
      *
-     * @magentoConfigFixture current_store payment/klarna_kp/active 1
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
@@ -109,7 +107,6 @@ class BuilderTest extends ApiRequestTestCase
      * @magentoConfigFixture current_store klarna/api/region eu
      * @magentoConfigFixture current_store klarna/api_eu/api_mode 1
      *
-     * @magentoConfigFixture current_store payment/klarna_kp/active 1
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
@@ -148,7 +145,6 @@ class BuilderTest extends ApiRequestTestCase
      * @magentoConfigFixture current_store klarna/api/region eu
      * @magentoConfigFixture current_store klarna/api_eu/api_mode 1
      *
-     * @magentoConfigFixture current_store payment/klarna_kp/active 1
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
@@ -187,7 +183,6 @@ class BuilderTest extends ApiRequestTestCase
      * @magentoConfigFixture current_store klarna/api/region eu
      * @magentoConfigFixture current_store klarna/api_eu/api_mode 1
      *
-     * @magentoConfigFixture current_store payment/klarna_kp/active 1
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
@@ -229,7 +224,6 @@ class BuilderTest extends ApiRequestTestCase
      * @magentoConfigFixture current_store klarna/api/region eu
      * @magentoConfigFixture current_store klarna/api_eu/api_mode 1
      *
-     * @magentoConfigFixture current_store payment/klarna_kp/active 1
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
@@ -269,7 +263,6 @@ class BuilderTest extends ApiRequestTestCase
      * @magentoConfigFixture current_store klarna/api/region eu
      * @magentoConfigFixture current_store klarna/api_eu/api_mode 1
      *
-     * @magentoConfigFixture current_store payment/klarna_kp/active 1
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
@@ -310,7 +303,6 @@ class BuilderTest extends ApiRequestTestCase
      * @magentoConfigFixture current_store klarna/api/region eu
      * @magentoConfigFixture current_store klarna/api_eu/api_mode 1
      *
-     * @magentoConfigFixture current_store payment/klarna_kp/active 1
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
@@ -351,7 +343,6 @@ class BuilderTest extends ApiRequestTestCase
      * @magentoConfigFixture current_store klarna/api/region eu
      * @magentoConfigFixture current_store klarna/api_eu/api_mode 1
      *
-     * @magentoConfigFixture current_store payment/klarna_kp/active 1
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
@@ -394,7 +385,6 @@ class BuilderTest extends ApiRequestTestCase
      * @magentoConfigFixture current_store klarna/api/region eu
      * @magentoConfigFixture current_store klarna/api_eu/api_mode 1
      *
-     * @magentoConfigFixture current_store payment/klarna_kp/active 1
      *
      * @magentoDbIsolation enabled
      * @magentoAppIsolation enabled
